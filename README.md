@@ -1,4 +1,4 @@
 # Tomax
 App development and Innovation 
 
-![logo](brand2.png)
+![logo](IMG/projects/brand2.jpg)
