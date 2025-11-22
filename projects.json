@@ -1,0 +1,33 @@
+[
+  {
+    "title": "E-Commerce Platform",
+    "desc": "Full-stack shopping app with Stripe integration",
+    "category": "web",
+    "image": "img/projects/ecommerce.jpg",
+    "live": "https://shop.example.com",
+    "code": "https://github.com/shop"
+  },
+  {
+    "title": "Task Manager App",
+    "desc": "React Native app with offline sync",
+    "category": "mobile",
+    "image": "img/projects/taskapp.jpg",
+    "live": "https://play.google.com/store/apps/details?id=com.taskapp"
+  },
+  {
+    "title": "Brand Identity",
+    "desc": "Logo & UI kit for startup",
+    "category": "design",
+    "image": "img/projects/brand.jpg",
+    "live": "https://dribbble.com/shots/brand"
+  },
+  
+  {
+    "title": "To-Do App",
+    "desc": "Task manager",
+    "category": "mobile",
+    "image": "img/projects/brand.jpg",
+    "live": "https://dribbble.com/shots/brand"
+  }
+  
+]
