@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tomcee_Potfollio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="hamburger">☰</div>
+    <!-- Dark Mode Toggle -->
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch" />
+  <label for="theme-switch" class="toggle-label">
+    <span class="sun">Sun</span>
+    <span class="moon">Moon</span>
+  </label>
+</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Toma Maiva</span></h1>
+      <p class="typing-text">I am a <span id="typewriter"></span></p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <a href="#projects" class="btn-primary">View My Work</a>
+    </div>
+    <div class="hero-image">
+      <div class="image-placeholder"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>I'm a passionate full-stack developer crafting beautiful, functional web experiences. I love turning ideas into reality with clean code and creative design.</p>
+        <div class="skill-bars">
+          <div class="skill">
+            <span>HTML/CSS</span>
+            <div class="bar"><div class="fill" data-width="95"></div></div>
+          </div>
+          <div class="skill">
+            <span>JavaScript</span>
+            <div class="bar"><div class="fill" data-width="90"></div></div>
+          </div>
+          <div class="skill">
+            <span>React</span>
+            <div class="bar"><div class="fill" data-width="85"></div></div>
+          </div>
+          <div class="skill">
+            <span>Node.js</span>
+            <div class="bar"><div class="fill" data-width="80"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card" data-tilt>
+        <i class="fab fa-html5"></i>
+        <h3>HTML5</h3>
+        <p>Semantic, accessible markup</p>
+      </div>
+      <div class="skill-card" data-tilt>
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS3</h3>
+        <p>Flexbox, Grid, Animations</p>
+      </div>
+      <div class="skill-card" data-tilt>
+        <i class="fab fa-js-square"></i>
+        <h3>JavaScript</h3>
+        <p>ES6+, DOM, APIs</p>
+      </div>
+      <div class="skill-card" data-tilt>
+        <i class="fab fa-react"></i>
+        <h3>React</h3>
+        <p>Hooks, Context, Router</p>
+      </div>
+      <div class="skill-card" data-tilt>
+        <i class="fab fa-node-js"></i>
+        <h3>Node.js</h3>
+        <p>Express, REST APIs</p>
+      </div>
+      <div class="skill-card" data-tilt>
+        <i class="fas fa-database"></i>
+        <h3>Databases</h3>
+        <p>MongoDB, PostgreSQL</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+    </div>
+    <div class="projects-grid" id="projects-container"></div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Toma Maiva. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
